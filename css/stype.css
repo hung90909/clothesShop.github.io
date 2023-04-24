@@ -1,0 +1,57 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.products, .cart {
+	flex-basis: 50%;
+	padding: 20px;
+}
+
+.products {
+	background-color: #eee;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.cart {
+	background-color: #ccc;
+}
